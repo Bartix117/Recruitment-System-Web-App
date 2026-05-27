@@ -1,0 +1,53 @@
+{
+  "name": "paw2026proj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "start": "ts-node src/index.ts",
+    "createdb": "ts-node tools/createdb.ts",
+    "build": "tsc",
+    "docs": "ts-node --transpile-only tools/gendocs.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@pdf-lib/fontkit": "^1.1.1",
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^12.9.0",
+    "chart.js": "^4.5.1",
+    "connect-sqlite3": "^0.9.16",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "express-ws": "^5.0.2",
+    "multer": "^2.1.1",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "pdf-lib": "^1.17.1",
+    "ws": "^8.20.1"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/connect-sqlite3": "^0.9.6",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/express-session": "^1.19.0",
+    "@types/express-ws": "^3.0.6",
+    "@types/multer": "^2.1.0",
+    "@types/node": "^25.9.1",
+    "@types/passport": "^1.0.17",
+    "@types/passport-local": "^1.0.38",
+    "@types/ws": "^8.18.1",
+    "nodemon": "^3.1.14",
+    "swagger-jsdoc": "^6.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3",
+    "widdershins": "^4.0.1"
+  }
+}
