@@ -7,9 +7,9 @@
 
 A modern, full-stack Applicant Tracking System (ATS) built to streamline the hiring process. Featuring a responsive Angular frontend and a robust Node.js/Express backend, the system is tailored for Candidates, Recruiters, and Administrators, offering real-time updates, analytics, and comprehensive management tools.
 
-![Recruiter Panel (dark mode)](./assets/Recruiter_Panel(dark_mode).png)
+![Recruiter Panel (dark mode)](./assets/Recruiter_Panel_(dark_mode).png)
 ![Admin Panel (light mode)](./assets/Admin_Panel_(light_mode).png)
-![Job Offer (light mode)](./assets/Job_Offer(light_mode).png)
+![Job Offer (light mode)](./assets/Job_Offer_(light_mode).png)
 
 ## ✨ Features
 
